@@ -1,0 +1,279 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  box-sizing: border-box;
+  color: #333;
+
+}
+.wrap{
+   width: 1200px;
+   height: 700px;
+   margin: 0 auto; 
+   font-size: 50px;
+}
+header.a{
+    width: 1200px;
+    height: 100px;
+    background-color: #d3671f;
+    display: flex;
+    
+}
+
+.a>.a1{
+    width: 300px;
+    height: 100px;
+    background-color: #d4aa9d;
+}
+
+.a>.a2{
+    width: 900px;
+    height: 100px;
+    background-color: #9aeb3e;
+    position: relative;
+}
+.a2 > .mainMenu {
+    font-size: 20px;
+    display: flex;
+    width: 800px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.a2 > .mainMenu > ul {
+    width: 200px;
+}
+
+/* 메인 메뉴 */
+.a2 > .mainMenu > ul > li.menuItem {
+    width: 200px;
+    position: relative;
+}
+
+/* 탑 / 아우터 / 팬츠 / 악세사리 */
+.a2 > .mainMenu > ul > li.menuItem > a {
+    display: block;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+
+    text-align: center;
+
+    background-color: #eef0ed;
+    color: #333;
+
+    font-weight: 800;
+}
+
+/* 서브메뉴 */
+.a2 > .mainMenu > ul > li.menuItem > .subMenu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 200px;
+    background-color: rgba(180, 238, 153, 0.7);
+    z-index: 100;
+}
+
+/* 서브메뉴 각각의 li */
+.a2 > .mainMenu > ul > li.menuItem > .subMenu li {
+    width: 200px;
+}
+
+/* 서브메뉴 링크 */
+.a2 > .mainMenu > ul > li.menuItem > .subMenu a {
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    color: #333;
+}
+
+/* 서브메뉴에 마우스를 올리면 */
+.a2 > .mainMenu > ul > li.menuItem > .subMenu a:hover {
+    color: #fff;
+    font-weight: 700;
+}
+
+.b{
+    width: 1200px;
+    height: 300px;
+    background-color: #5c92d8;
+    
+}
+.swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #444;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+.c{
+    width: 1200px;
+    height: 200px;
+    display: flex;
+}
+
+.c>.c1{
+    width: 400px;
+    height: 200px;
+    
+}
+
+
+
+.tab-box{
+    width:400px;
+    height: 200px;
+    margin: 2px;
+}
+.tabs{
+ display: flex;
+ justify-content: left;
+}
+.tab{
+    width: 100px;
+    height: 40px;
+    border: 1px solid #ddd; 
+    background-color: #eee;
+    cursor: pointer;
+}
+.tab.active {
+    background-color: #fff;
+    font-weight: 800;
+}
+.content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 400px;
+    height: 150px;
+    background-color: #e0e0db;
+}
+.content.active {
+    display: block;
+}
+.content li {
+    padding: 5px;
+    font-size: 12px;
+    text-align: left;
+    margin-left: 10px;
+    font-weight: 700;
+
+}
+.gallery {
+    display: flex;
+    gap: 10px;
+}
+.gallery img {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    margin: 2px;
+}
+
+.c>.c2{
+    width: 400px;
+    height: 200px;
+    
+}
+.c>.c2.banner{
+  background-image: url("../images/banner.jpg");
+}
+.c>.c2.banner>a{
+    width: 100px;
+    padding: 14px 5px;
+    text-align: center;
+    color: #fff; 
+    margin: 0 auto;
+    overflow: hidden;
+    font-size: 14px;
+    background-color: rgba(114, 63, 251, 0.5);
+}
+.c>.c2.banner>a:hover{
+   
+    font-size: 30px;
+    background-color: rgba(69, 21, 199, 0.5);
+}
+
+
+.c>.c3{
+    width: 400px;
+    height: 200px;
+   
+
+}
+.c>.c3.direct{
+ background-image: url("../images/direct.jpg");
+}
+.c>.c3.direct>a{
+    width: 400px;
+    height: 200px;
+    background-color:  rgba(181,63,118,5); 
+    font-size: 20px;
+     
+   
+}
+.c>.c3.direct>a:hover{
+   font-size: 40px;
+   background-color: rgba(181,63,118,0.7); 
+}
+.d{
+    width: 1200px;
+    height: 100px;
+    background-color: #7d25e2;
+    display: flex;
+}
+
+.d>.d1{
+    width: 200px;
+    height: 100px;
+    background-color: #435b5f;
+}
+.d>.d1>.footerLogo{
+    margin-top: 20px;
+}
+
+.d>.d2{
+    width: 800px;
+    height: 100px;
+    background-color: #141d29;
+    font-size: 22px;
+    
+}
+.d>.d2>.d2-1{
+    margin: 35px;
+    color: #867f7f;
+}
+
+.d>.d3{
+    width: 200px;
+    height: 100px;
+    background-color: #3f393b;
+
+}
+.d>.d3>.d3-1{
+    margin-top: 20px;
+}
+
+
+
+
